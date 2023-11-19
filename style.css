@@ -1,0 +1,158 @@
+.nav-bar{
+    display: flex;
+    
+    
+    position: fixed;
+    
+
+    
+}
+nav{
+    height: 60px;
+    width: 100%;
+    background-color: rgb(23, 23, 23);
+    align-items: center;
+    position: fixed;
+    padding-left: 125px;
+
+}
+a{
+    
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    padding-left: 30px;
+     
+}
+
+.nav-home{
+    padding-left: 550px;
+    padding-top: 15px;
+    
+}
+.nav-logo{
+    font-size: 30px;
+   padding-top: 10px;}
+*{
+    margin: 0;
+}
+
+.top{
+    background-image: url(img1.jpg);
+    
+    background-size:  100% ;
+    height: 650px;
+    background-position-y: -250px;
+    background-repeat: no-repeat;
+    width: 100% ;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.section-1{
+    margin-bottom: 178px;
+    width: 58%;
+}
+div > h1{
+    font-size: 65px;
+    color: white;
+    
+    text-shadow: 1px 1px 1px #000000d4;
+}
+.s-1-p{
+    font-size: 20px;
+    color: white;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 20px;
+    text-shadow: 1px 1px 1px #000000d4;
+    text-align: center;
+}
+
+
+button{
+    margin-left: 45%;
+    margin-top: 20px;
+    height: 50px;
+    border: 0;
+}
+.section-2{
+    margin-top: 50px;
+    text-align: center;
+}
+.s-2{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+.s-2-b{
+    margin-top: 30px;
+    height: 310px;
+    width: 310px;
+    align-items:center;
+    box-shadow: 10px 10px 5px rgba(139, 136, 136, 0);
+    background-color: white;
+    margin-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+img{
+    margin-top: 20px;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 35%;
+}
+body{
+    background-color: rgb(208 202 202 / 35%);
+}
+h3{
+    text-align: center;
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+.s-p{
+     text-align: center;
+    margin-bottom: 20px;
+}
+.section-3{
+    margin-left: 125px;
+    margin-right: 125px;
+}
+h4{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.p{
+    margin-top: 15px;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+.form{
+    width: 399px;
+    height: 35px;
+    margin-right: 125px;
+}
+.submit{
+    margin-bottom: 100px;
+    height: 35px;
+    background-color: rgb(54, 52, 52);
+    color: white;
+}
+.s{
+    text-align: center;
+    margin-bottom: 70px;
+}
